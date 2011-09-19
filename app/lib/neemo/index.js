@@ -1,3 +1,5 @@
-module.exports = {
-  Server:  require('./server')
-};
+(function() {
+  module.exports = {
+    Server: require("./server")
+  };
+}).call(this);
